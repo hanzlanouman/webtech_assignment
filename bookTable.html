@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book a Table</title>
+  </head>
+  <link rel="stylesheet" href="/styles/bookTable.css" />
+  <link rel="stylesheet" href="/styles/constants.css" />
+  <body>
+    <header>
+      <div>
+        <a href="index.html">
+          <img src="/assets/logo.png" alt="" id="main-logo" />
+        </a>
+      </div>
+    </header>
+    <nav>
+      <ul id="menu">
+        <li class="menu-item"><a href="/index.html  ">Home</a></li>
+        <li class="menu-item"><a href="/menu.html">Menu</a></li>
+        <li class="menu-item"><a href="/bookTable.html">Book Table</a></li>
+        <li class="menu-item"><a href="/about.html">About Us</a></li>
+      </ul>
+    </nav>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required />
+
+      <label for="date">Date:</label>
+      <input type="text" id="date" name="date" required />
+
+      <label for="time">Time:</label>
+      <input type="text" id="time" name="time" required />
+
+      <label for="guests">Number of guests:</label>
+      <select id="guests" name="guests" required>
+        <option value="">Please select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6+">6 or more</option>
+      </select>
+
+      <input type="submit" value="Book Now" />
+    </form>
+
+    <footer>
+      <div class="bottom-logo">
+        <a href="index.html"
+          ><img src="/assets/bottom-logo.png" alt="Little Lemon Footer Logo"
+        /></a>
+      </div>
+      <div class="copyright">
+        <hr />
+        <p>Copyright Little Lemon</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -7,19 +7,70 @@
     <title>Document</title>
   </head>
   <link rel="stylesheet" href="/styles/constants.css" />
-  <body>
+  <link rel="stylesheet" href="/styles/home.css" />
     <header>
       <div>
-        <img src="" alt="" id="main-logo" />
+        <a href="index.html">
+          <img src="/assets/logo.png" alt="" id="main-logo" />
+        </a>
       </div>
     </header>
     <nav>
       <ul id="menu">
-        <li class="menu-item">Home</li>
-        <li class="menu-item">Menu</li>
-        <li class="menu-item">Book a Table</li>
-        <li class="menu-item">About Us</li>
+        <li class="menu-item"><a href="/index.html">Home</a></li>
+        <li class="menu-item"><a href="/menu.html">Menu</a></li>
+        <li class="menu-item"><a href="/bookTable.html">Book Table</a></li>
+        <li class="menu-item"><a href="/about.html">About Us</a></li>
       </ul>
     </nav>
+    <main>
+      <div class="primary-card">
+        <a href="#">
+        <h1>Avail 50% off on Deserts</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis
+          provident consectetur porro enim sit reiciendis nulla exercitationem
+          nesciunt tempora?
+        </p>
+      </a>
+      </div>
+      <h1>Our Deals</h1>
+      <section class="card-section">
+        <article class="secondary-card" id="card-1">
+
+          <h1>Deal 01</h1>
+          <ul>
+            <li>Grilled Salmon with Lemon Butter Sauce</li>
+            <li>Fettuccine Alfredo with Grilled Chicken</li>
+            <li>Spicy Shrimp Tacos with Avocado Salsa</li>
+            <li>Chocolate Lava Cake with Vanilla Ice Cream</li>
+          </ul>
+          <p>Book table at our restaurant now!</p>
+          <button>Get Now!</button>
+        </article>
+        <article class="secondary-card" id="card-2">
+          <h1>Deal 02</h1>
+          <ul>
+            <li>Chicken Parmesan with Linguine</li>
+            <li>Pan-Seared Scallops with Garlic Butter Sauce</li>
+            <li>Vegetarian Pad Thai with Tofu</li>
+            <li>Tiramisu</li>
+          </ul>
+          <p>Book table at our restaurant now!</p>
+          <button>Get Now!</button>
+        </article>
+      </section>
+    </main>
+      <footer>
+      <div class="bottom-logo">
+        <a href="index.html"
+          ><img src="/assets/bottom-logo.png" alt="Little Lemon Footer Logo"
+        /></a>
+      </div>
+      <div class="copyright">
+        <hr />
+        <p>Copyright Little Lemon</p>
+      </div>
+    </footer>
   </body>
 </html>
